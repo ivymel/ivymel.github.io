@@ -1,1 +1,118 @@
-theme: jekyll-theme-time-machine
+<!doctype html>
+<html>
+<head>
+<style>
+body{font-family:serif;}
+    #container
+    {
+     width:1024px;
+     height:800px;
+     margin: 0px auto;
+    }
+    #header
+    {
+    height:200px;
+    background:gray;
+    }
+    #main
+    {
+    height:500px;
+    background:green;
+    }
+    #lside
+    {
+    width:124px;
+    background:green;
+    float:left;
+    }
+    #rside
+    {
+    width:900px;
+    float:right;
+   }
+
+    #left
+    {
+    width:450px;
+    height:480px;
+    float:left;
+    background:gray;
+    margin-top:10px;
+    }
+    #right
+    {
+    width:450px;
+    height:500px;
+    float:left;
+    }
+     .a
+   {
+   width:205px;
+   height:230px;
+   background:pink;
+   margin:10px;
+   float:left;
+   }
+   #footer
+   {
+   height:100px;
+   background:gray;
+   }
+ </style>
+</head>
+<body>
+<div id="container">
+   <div id="header"><img src="1.jpg" height=200px width=1024px></div>
+   <div id="main">
+     <div id="lside">
+       <dl>
+         <dt><a href="">home</a></dt>
+         <dt><a href="">portfolio</a></dt>
+         <dt><a href="">introduction</a></dt>
+         <dt><a href="">mood</a></dt>
+       </dl>
+     </div>
+     <div id="rside">
+        <div id="left">
+          <ul>
+            <li><a href="si-birthday.html">10月11日</a></li>
+            <li><a href="first test/a.html">第一次小测试</a></li>
+          </ul>
+        </div>
+        <div id="right">
+          <div class="a">
+            <h3>雅雅专栏</h3>
+            <ul>
+              <li><a href="yaya.html">小天使的降临</a></li>
+              <li><a href="mid-autumn.html">中秋&国庆的你</a></li>
+            </ul>
+          </div>
+          <div class="a">
+            <h3>练习专栏</h3>
+            <ol>
+              <li><a href="practice/1.html">唐诗欣赏-《静夜思》</a></li>
+              <li><a href="practice/2.html">普通话考试通知</a></li>
+              <li><a href="practice/3.html">创建链接</a></li>
+              <li><a href="practice/4.html">家的照片集锦</a></li>
+              <li><a href="practice/5.html">表格</a></li>
+              <li><a href="practice/6.html">框架</a></li>
+              <li><a href="practice/7.html">表单</a></li>
+            </ol>
+          </div>
+           <div class="a">作品三号</div>
+            <div class="a">作品四号</div>
+        </div>
+     </div>
+  </div>
+  <div id="footer">
+    <p><form>
+      <input type="color">
+      <input type="date">
+      <input type="email">
+      <input type="tel">
+      <input type="url">
+    </form></p>
+  </div>
+  </div>
+</body>
+</html>
