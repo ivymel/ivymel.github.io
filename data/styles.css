@@ -10,6 +10,12 @@
   line-height:normal;
   text-transform:none;
 }
+.box_1 {
+}
+._形状 {
+}
+._图片_ {
+}
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
@@ -51,12 +57,24 @@
   font-size:10px;
   text-align:left;
 }
+.label {
+  font-size:14px;
+  text-align:left;
+}
 ._文本段落 {
   text-align:left;
+}
+.line {
 }
 ._表单提示 {
   color:#999999;
 }
 ._表单禁用 {
+}
+._流程形状 {
+}
+.icon {
+}
+.box_2 {
 }
 textarea, select, input, button { outline: none; }
